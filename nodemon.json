@@ -1,0 +1,19 @@
+{
+    "watch": [
+        "main.js",
+        "preload.js",
+        "src/**/*.js",
+        "src/**/*.mjs"
+    ],
+    "ext": "js,mjs,json",
+    "ignore": [
+        "node_modules",
+        "dist",
+        "*.log",
+        ".git"
+    ],
+    "exec": "node scripts/start-electron.cjs",
+    "env": {
+        "NODE_ENV": "development"
+    }
+}
